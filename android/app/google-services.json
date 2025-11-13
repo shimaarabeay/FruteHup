@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308074927805",
+    "project_id": "fruteapp",
+    "storage_bucket": "fruteapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308074927805:android:f5b8db530721967073c9d4",
+        "android_client_info": {
+          "package_name": "com.shimaa.fruit_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWPZ17x-BV7M8PCI4d43-gHQB1INjevXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
