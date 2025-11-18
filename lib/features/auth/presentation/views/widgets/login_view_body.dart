@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fruit_app/core/widgets/custom_button.dart';
 import 'package:fruit_app/core/widgets/custom_tex_field.dart';
+import 'package:fruit_app/core/widgets/password_field.dart';
 
 import '../../../../../core/utils/app_colors.dart';
 import '../../../../../core/utils/app_text_styles.dart';
@@ -26,11 +27,7 @@ class LoginViewBody extends StatelessWidget {
                   hintText: 'البريد الالكترونى',
                   textInputType: TextInputType.emailAddress),
               SizedBox(height: 16),
-              CustomTextFormField(
-                textInputType: TextInputType.visiblePassword,
-                hintText: 'كلمة المرور',
-                suffixIcon: Icon(Icons.visibility_outlined),
-              ),
+             PasswordField(),
               SizedBox(
                 height: 16,
               ),
